@@ -17,23 +17,42 @@ function NewProductForm() {
   const [ price, setPrice ] = useState('');
 
   const categories = [
-    'Categoría 1',
+    'Ropa',
+    'Zapatos',
+    'Accesorios',
+    'Juguetes'
   ];
 
   const sizes = [
-    'Talla 1',
+    '0-24 meses',
+    '2-4 años',
+    '4-6 años',
+    '6-8 años',
+    '8-10 años'
   ];
 
   const brands = [
-    'Marca 1',
+    'Baby crazy',
+    'GAP',
+    'Carter\'s',
+    'Chicco',
+    'Ferrioni'
   ];
 
   const colors = [
-    'Color 1',
+    'Rosa',
+    'Azul',
+    'Amarillo',
+    'Rojo',
+    'Verde'
   ];
 
   const states = [
-    'Estado 1',
+    'Nuevo con etiqueta',
+    'Nuevo sin etiqueta',
+    'Puesto una vez',
+    'En perfecto estado',
+    'Usado'
   ];
 
   const submit = async function () {
